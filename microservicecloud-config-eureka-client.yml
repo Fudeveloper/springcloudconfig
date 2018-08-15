@@ -7,6 +7,8 @@ spring:
   profiles: dev
   application:
     name: eureka-client-dev
+server:
+  port: 7001
 eureka:
   instance:
     hostname: eureka7001.com #eureka服务端实例名称
@@ -23,6 +25,8 @@ spring:
   profiles: test
   application:
     name: eureka-client-test
+server:
+  port: 7001
 eureka:
   instance:
     hostname: eureka7001.com #eureka服务端实例名称
